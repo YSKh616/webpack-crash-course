@@ -1,4 +1,9 @@
 import _ from 'lodash'
+import Lion from './utilities'
+import { Nijou } from './utilities'
+
+console.log(Lion.say());
+console.log(Nijou(10));
 
 function component() {
   const element = document.createElement('div');
